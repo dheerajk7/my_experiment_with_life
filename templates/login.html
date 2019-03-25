@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block body %}
+<header class="masthead" style="background-image: url('{{url_for('static',filename='img/home-bg.jpg')}}">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Login</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="row justify-content-center">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-10">
+<form action="/dashboard" method="post">
+  <h1 class="text-center">Admin Login</h1>
+  <div class="form-group">
+    <label for="user_id">User ID:</label>
+    <input type="text" name="user_name" class="form-control" placeholder="User Name" id="user_name">
+  </div>
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" name="user_pass" class="form-control" placeholder="Password" id="email">
+  </div>
+  <div class="text-center">
+    <div class="text-center">
+  <button type="submit" class="btn bg-success">Sign In</button>
+</div>
+<div style="margin-top: 20px;">
+  <button type="reset" class="btn bg-danger">Reset</button> 
+</div>
+</div>
+</form>
+
+</div>
+
+</div>
+
+
+{% endblock %}

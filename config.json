@@ -1,0 +1,18 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/myexperimentwithlife",
+    "prod_uri": "mysql://root:@localhost/myexperimentwithlife",
+    "fb_uri": "https://facebook.com/dheerajk_7",
+    "tw_uri": "https://twitter.com/dheerajk_7",
+    "gh_uri": "https://github.com/dheerajkushwah7",
+    "blog_name": "My Experiments With Life",
+    "tag_line": "A blog by Dheeraj Kushwah",
+    "gmail_user": "dkushwah7777",
+    "gmail_password": "",
+    "no_of_posts": 3,
+    "admin_user":"dheeraj",
+    "admin_pass":"dheerajkushwah"
+  }
+}
